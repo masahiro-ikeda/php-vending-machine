@@ -61,7 +61,6 @@ http://localhost/vending-machine.php?pay10=2&pay100=1&drink=coffee
 
 1. 画面表示は下記のようになるようにしてください。
 ```
-200円のお金を入れました
 おつりのお金が足りません
 ```
 
