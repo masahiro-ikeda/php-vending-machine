@@ -53,6 +53,8 @@ http://localhost/vending-machine.php?pay10=2&pay100=1&drink=coffee
 例えばお釣りが80円あるけど、50円玉1枚と10円玉2枚しかなければそれだけ返却して終わりです。<br>
 僕が利用者ならキレて二度と使いません。<br>
 
+現金残高のデータは`./data/cash.csv`で管理しています。
+
 - ToBe
 
 お釣りの硬貨が足りないときは購入処理をストップさせる。
@@ -125,4 +127,3 @@ http://localhost/vending-machine.php?pay10=2&pay100=1&drink=coffee
 
 - URL設計が[REST API](https://www.redhat.com/ja/topics/api/what-is-a-rest-api)に沿ってないですが、動かしやすくするためなのでご容赦ください。
 - DB使うのは面倒だったので永続化にcsvファイルを利用しました。トランザクション制御は全くできないですが勘弁してください。
-- 現金残高のデータは`./data/cash.csv`上で管理しています。
